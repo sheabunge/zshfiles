@@ -5,7 +5,7 @@ plugins=(
 	git github git-flow git-extras
 	composer npm vagrant
 	common-aliases command-not-found
-	zsh-completions zsh-syntax-highlighting
+	zsh-completions git-flow-completion zsh-syntax-highlighting
 )
 
 

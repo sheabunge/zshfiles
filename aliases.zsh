@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-ALIASES="$ZSH/custom/aliases.zsh"
+ALIASES="~/.zsh/aliases.zsh"
 
 alias aliases="vim $ALIASES; source $ALIASES"
 
@@ -14,7 +14,6 @@ alias targz="tar -xvzf"
 alias tarbz2="tar -jxvf"
 
 alias cls=clear
-alias git=hub
 alias apt-get=apt-fast
 alias python=python3
 alias pip=pip3
@@ -30,5 +29,4 @@ export VAGRANT_DOTFILE_PATH='.vagrant-ubuntu'
 
 export TODOTXT_DEFAULT_ACTION=ls
 alias todo='todo -d ~/.todo.cfg'
-
 
