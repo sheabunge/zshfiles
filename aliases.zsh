@@ -5,7 +5,7 @@ ALIASES="$ZSH/custom/aliases.zsh"
 alias aliases="vim $ALIASES; source $ALIASES"
 
 alias sudo="nocorrect sudo "
-alias ls="ls --group-directories-first --color=tty -h"
+alias ls="ls -Ah --group-directories-first --color=tty"
 
 alias youtube-mp3="youtube-dl --extract-audio --audio-format mp3"
 alias inst="sudo apt-get install"
