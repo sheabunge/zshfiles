@@ -12,6 +12,7 @@ alias inst="sudo apt-get install"
 alias perms='stat -c "%a %n"'
 alias targz="tar -xvzf"
 alias tarbz2="tar -jxvf"
+alias composer="php -n -d extension=json.so /usr/local/bin/composer"
 
 alias cls=clear
 alias apt-get=apt-fast
