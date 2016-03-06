@@ -23,11 +23,23 @@ alias diff=colordiff
 alias ytdl="youtube-dl"
 alias ytmp3="youtube-mp3"
 
-
 alias makepot="php /srv/www/wp/tools/i18n/makepot.php"
 
 export VAGRANT_DOTFILE_PATH='.vagrant-ubuntu'
 
 export TODOTXT_DEFAULT_ACTION=ls
 alias todo='todo -d ~/.todo.cfg'
+
+# Rsync configuration
+#
+# -a = archive; combination of common switches
+# -h = --progress sizes in human readable format
+# -v = show verbose output
+# -n = --dry-run = trial run; make no changes
+# -P = combine --progress and --partial
+# --delete = remove files from destination that do not exist in origin
+# --progress = show the copy progress for each file
+# --partial = allow resumption in case process is interupted
+alias rcopy="rsync -ahP"
+alias rcopydel="rsync -ahP --delete"
 
