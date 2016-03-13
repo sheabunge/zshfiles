@@ -1,4 +1,7 @@
 
+# local aliases
+local.zsh
 
+# example files included with oh-my-zsh
 example.zsh
 plugins/example/example.plugin.zsh

@@ -12,7 +12,6 @@ alias inst="sudo apt-get install"
 alias perms='stat -c "%a %n"'
 alias targz="tar -xvzf"
 alias tarbz2="tar -jxvf"
-alias composer="php -n -d extension=json.so /usr/local/bin/composer"
 
 alias cls=clear
 alias apt-get=apt-fast
@@ -22,13 +21,6 @@ alias diff=colordiff
 
 alias ytdl="youtube-dl"
 alias ytmp3="youtube-mp3"
-
-alias makepot="php /srv/www/wp/tools/i18n/makepot.php"
-
-export VAGRANT_DOTFILE_PATH='.vagrant-ubuntu'
-
-export TODOTXT_DEFAULT_ACTION=ls
-alias todo='todo -d ~/.todo.cfg'
 
 # Rsync configuration
 #
