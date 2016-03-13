@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-ALIASES="~/.zsh/aliases.zsh"
+ALIASES="$ZSH_CUSTOM/aliases.zsh"
 
 alias aliases="vim $ALIASES; source $ALIASES"
 
