@@ -35,3 +35,4 @@ alias ytmp3="youtube-mp3"
 alias rcopy="rsync -ahP"
 alias rcopydel="rsync -ahP --delete"
 
+export TODOTXT_DEFAULT_ACTION=ls
