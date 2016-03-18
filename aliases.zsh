@@ -14,7 +14,6 @@ alias targz="tar -xvzf"
 alias tarbz2="tar -jxvf"
 
 alias cls=clear
-alias apt-get=apt-fast
 alias python=python3
 alias pip=pip3
 alias diff=colordiff
